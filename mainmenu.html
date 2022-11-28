@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- 
+      ********************
+            Nav Section 
+      *********************
+    -->
+    <nav class="navbar navbar-expand-md navbar-light text-uppercase bg-dark">
+        <img src="imagenes/logo.png" class="img-fluid" style="width: 50px; height:50px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="login.html">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#!">Productos Rebajados</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#!">Nuevos Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#!">Perfil</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success bg-info" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+    <!-- 
+      ********************
+        Products Section 
+      *********************
+    -->
+    <div>
+        <div class="row">
+            <div class="col-12">
+                <div class="row text-center mt-1">
+                    <div class="col-4 border-1 border-info">
+                        <p class="h4">Tenda AC6</p>
+                        <!-- I have modified the width and the height because it did not let me with bootstrap -->
+                        <img src="imagenes/producto1.png" alt="producto1" class="img-fluid img-thumbnail" style="width:300px;height:300px">
+                        <p class="h5">Descripción</p>
+                        <p class="text-start w-auto p-3">
+                            El AC6 es un Router WiFi de doble banda inteligente que 
+                            proporciona una potente señal y un rendimiento estable.
+                            <br> 
+                            Es compatible con el estándar Wi-Fi de 5ª generación
+                            802.11ac.
+                        </p>
+                        <p class="h5 text-success">Precio : 34,94€</p>
+                    </div>
+                    <div class="col-4 border-1 border-dark border-start">
+                        <p class="h4">BASILISK V3</p>
+                        <!-- I have modified the width and the height because it did not let me with bootstrap -->
+                        <img src="imagenes/producto2.png" alt="producto2" class="img-fluid img-thumbnail" style="width:300px;height:300px">
+                        <p class="h5">Descripción</p>
+                        <p class="text-start w-auto p-3">
+                            Crea, controla e impulsa tu estilo de juego con el nuevo Razer 
+                            Basilisk V3, el ratón ergonómico para juegos por excelencia 
+                            para un rendimiento personalizado. 
+                        </p>
+                        <p class="h5 text-success">Precio : 150,23€</p>
+                    </div>
+                    <div class="col-4 border-1 border-dark border-start">
+                        <h4 class="h4">D-Link DSR-250N</h4>
+                        <!-- I have modified the width and the height because it did not let me with bootstrap -->
+                        <img src="imagenes/producto3.png" alt="producto3" class="img-fluid img-thumbnail" style="width:300px;height:300px">
+                        <p class="h5">Descripción</p>
+                        <p class="text-start w-auto p-3">
+                            Routers de Servicios Unificado de D-Link son soluciones 
+                            seguras y de alto rendimiento de redes que abordan las 
+                            crecientes necesidades de pequeñas y medianas empresas.
+                        </p>
+                        <p class="h5 text-success">Precio : 325,57€</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 
+      ********************
+            Footer Section 
+      *********************
+    -->
+    <!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p class="text-start w-auto p-3">
+          Gracias por comprar en nuestra tienda, recuerda que hay descuentos mensuales en nuestros productos.
+          <br>
+          Te aconsejamos que te loguees para recibir la información sobre nuestras promociones y futuros productos.
+        </p>
+      </section>
+      <!-- Section: Text -->
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-12 col-md-12 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Quienes somos</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Contacta con nosotros</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Politicas de la empresa</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Preguntas y Respuestas</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-dark">
+      © 2022 Copyright:
+      <a class="text-white" href="#!">Miguel Angel Moreno</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+    
+</body>
+</html>
